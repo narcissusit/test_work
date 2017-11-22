@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Nakitel</title>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<header>
+		<div class="wrap">
+			<span class="menu_icon"></span>
+			<nav class="header_menu">
+				<ul class="menu_list">
+					<li><a href="#">На главную</a></li>
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Каталог продукции</a></li>
+					<li><a href="#">Акции</a></li>
+					<li><a href="#">Гарантии</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="header_col">
+				<div class="basket">
+					<a href="#" class="basket_image"></a>
+					<div class="basket_info">
+						<span class="products">Товаров: 3</span>
+						<span class="summ">Сумма: 5.000 грн.</span>
+					</div>
+				</div>
+				<div class="language">
+					<a href="#" class="active">ru</a>
+					<a href="#">ua</a>
+				</div>
+				<div class="search">
+					<span class="search_mob"></span>
+					<form class="search_form">
+						<input type="text" class="search_field" placeholder="Поиск">
+						<button class="search_button"></button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="head_section">
+			<div class="wrap">
+				<div class="head_description">
+					<div class="logo">
+						<a href="#" class="logo_image"></a>
+					</div>
+					<div class="user_enter">
+						<a href="#" class="enter">Войти на сайт</a>
+						<a href="#" class="register">Зарегистрироваться</a>
+						<div class="social_networks">
+							<a href="#" class="twitter"></a>
+							<a href="#" class="vk"></a>
+							<a href="#" class="facebook"></a>
+							<a href="#" class="rss"></a>
+							<a href="#" class="google"></a>
+						</div>
+						<div class="basket">
+							<a href="#" class="basket_image"></a>
+							<div class="basket_info">
+								<a href="#" class="basket_title">Корзина</a>
+								<span class="products">Товаров: <span>3</span></span>
+								<span class="summ">На сумму: <span>5.000</span></span>
+							</div>
+						</div>
+					</div>
+					<div class="contact_info">
+						<span class="phone_title">Телефон горячей линии</span>
+						<a href="tel:+12(034)5678910" class="contact_phone">+12(034) 567 89 10</a>
+						<span class="work_hours">
+							(пн. - пт. с 9.00 до 18.00)
+						</span>
+						<a href="#" class="call_master">Вызвать <span>замерщика</span></a>
+					</div>
+				</div>
+				<div class="doors_block">
+					<div class="door">
+						<div class="door_image">
+							<img src="images/shpon.png" alt="Door shpon">
+						</div>
+						<div class="door_text">
+							<h3 class="door_title">Двери</h3>
+							<p class="door_desc">шпонированные</p>
+						</div>
+					</div>
+					<div class="door">
+						<div class="door_image">
+							<img src="images/eco.png" alt="Door ecoshpon">
+						</div>
+						<div class="door_text">
+							<h3 class="door_title">Двери</h3>
+							<p class="door_desc">экошпон</p>
+						</div>
+					</div>
+					<div class="door">
+						<div class="door_image">
+							<img src="images/massiv.png" alt="Door massiv">
+						</div>
+						<div class="door_text">
+							<h3 class="door_title">Двери</h3>
+							<p class="door_desc">из массива</p>
+						</div>
+					</div>
+					<div class="door">
+						<div class="door_image">
+							<img src="images/main_door.png" alt="Main door">
+						</div>
+						<div class="door_text">
+							<h3 class="door_title">Двери</h3>
+							<p class="door_desc">входные</p>
+						</div>
+					</div>
+					<div class="door">
+						<div class="door_image">
+							<img src="images/special_door.png" alt="Special door">
+						</div>
+						<div class="door_text">
+							<h3 class="door_title">Двери</h3>
+							<p class="door_desc">спец назначения</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="slider">
+			<div class="wrap">
+				<div class="slider_dots">
+					<span class="dot active" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+					<span class="dot" onclick="currentSlide(4)"></span>
+				</div>
+				<div class="slider_container">
+					<div class="slide fade">
+						<img src="images/house.jpg" alt="House">
+						<span class="text">Дверь на дачу</span>
+					</div>
+					<div class="slide fade">
+						<img src="images/home.jpg" alt="Home">
+						<span class="text">Дверь домой</span>
+					</div>
+					<div class="slide fade">
+						<img src="images/room.jpg" alt="Room">
+						<span class="text">Дверь в комнату</span>
+					</div>
+					<div class="slide fade">
+						<img src="images/special.jpg" alt="Special door">
+						<span class="text">Специальная дверь</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="about">
+			<div class="wrap">
+				<h2 class="about_title">О компании</h2>
+				<div class="about_content">
+					<nav class="menu_content">
+						<ul class="menu_list">
+							<li><a href="#">Главная</a></li>
+							<li><a href="#" class="active_item">О компании</a></li>
+							<li><a href="#">Каталог продукции</a></li>
+							<li><a href="#">Оплата/доставка</a></li>
+							<li><a href="#">Акции</a></li>
+							<li><a href="#">Гарантия</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</nav>
+					<div class="about_info">
+						<p>Повседневная практика показывает, что постоянный количественный рост и сфера нашей активности позволяет оценить значение существенных финансовых и административных условий. Значимость этих проблем настолько очевидна, что консультация с широким активом представляет собой интересный эксперимент проверки направлений прогрессивного развития.</p>
+						<p>Идейные соображения высшего порядка, а также сложившаяся структура организации влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</p>
+						<p>Таким образом сложившаяся структура организации требуют определения и уточнения направлений прогрессивного развития. С другой стороны сложившаяся структура организации способствует подготовки и реализации системы обучения кадров, соответствует насущным потребностям. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры влечет за собой процесс внедрения и модернизации соответствующий условий активизации.</p>
+						<p>С другой стороны начало повседневной работы по формированию позиции позволяет оценить значение дальнейших направлений развития. Идейные соображения высшего порядка, а также реализация намеченных плановых заданий влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач. С другой стороны начало повседневной работы по формированию позиции представляет собой интересный эксперимент проверки новых предложений. Равным образом рамки и место обучения кадров в значительной степени обуславливает создание системы обучения кадров, соответствует насущным потребностям.</p>
+						<p>Повседневная практика показывает, что дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание системы обучения кадров, соответствует насущным потребностям. Не следует, однако забывать, что рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании модели развития.</p>
+						<p>Товарищи! начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке систем массового участия.</p>
+					</div>
+					<div class="about_contacts_block">
+						<div class="about_contacts">
+							<div class="contact_call">
+								<p>Телефон горячей линии</p>
+								<a href="tel:+3806674027101">+38(067) 402 71 01</a>
+								<p>(пн. - пт. с 9.00 до 18.00)</p>
+								<a href="#" class="call">Вызвать <span>замерщика</span></a>
+							</div>
+							<div class="banner">
+								<p>Банерная <span>область</span></p>
+							</div>
+						</div>
+						<div class="about_contacts">
+							<div class="contact_call">
+								<p>Телефон горячей линии</p>
+								<a href="tel:+3806674027101">+38(067) 402 71 01</a>
+								<p>(пн. - пт. с 9.00 до 18.00)</p>
+								<a href="#" class="call">Вызвать <span>замерщика</span></a>
+							</div>
+							<div class="banner">
+								<p>Банерная <span>область</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="footer_content">
+			<div class="wrap">
+				<p class="copyright">Nakitel ©2014</p>
+				<nav class="footer_menu">
+					<ul class="menu_list">
+						<li><a href="#">Контакты</a></li>
+						<li><a href="#">Акции</a></li>
+						<li><a href="#">Каталог</a></li>
+						<li><a href="#">Оплата / Доставка</a></li>
+						<li><a href="#">Гарантия</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</footer>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
